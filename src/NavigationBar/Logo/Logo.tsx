@@ -1,10 +1,11 @@
 import React from 'react'
-
+import logo from '../../assets/images/logo.png'
+import * as ui from './LogoUI'
 const Logo = () => {
     return (
-    <div> 
-            TUTAJ BĘDZIE LOGO MTL
-    </div>
+    <ui.LogoWrapper> 
+            <img src={logo} alt="logo" />
+    </ui.LogoWrapper>
     )
 }
 
