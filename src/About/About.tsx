@@ -1,7 +1,8 @@
 import React from "react";
+import { AppWrapper } from "../AppUI";
 
 const About = () => {
-    return <div>o Nas</div>;
+    return <AppWrapper>o Nas</AppWrapper>;
 };
 
 export default About;

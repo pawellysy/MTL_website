@@ -12,8 +12,8 @@ function App() {
   return (
     <div>
 
-      <NavigationBar/>
     <BrowserRouter>
+      <NavigationBar/>
     <Switch>
       <Route exact path="/" component={MainSite} />
       <Route path="/offer" component={Offer} />

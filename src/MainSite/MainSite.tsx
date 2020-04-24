@@ -1,7 +1,8 @@
 import React from "react";
+import { AppWrapper } from "../AppUI";
 
 const MainSite = () => {
-    return <div>Main Site</div>;
+    return <AppWrapper>Main Site</AppWrapper>;
 };
 
 export default MainSite;

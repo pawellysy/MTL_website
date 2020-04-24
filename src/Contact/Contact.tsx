@@ -1,7 +1,8 @@
 import React from "react";
+import { AppWrapper } from "../AppUI";
 
 const Contact = () => {
-    return <div>Kontakt</div>;
+    return <AppWrapper>Kontakt</AppWrapper>;
 };
 
 export default Contact;

@@ -1,7 +1,8 @@
 import React from "react";
+import { AppWrapper } from "../AppUI";
 
 const Gallery = () => {
-    return <div>Galeria</div>;
+    return <AppWrapper>Galeria</AppWrapper>;
 };
 
 export default Gallery;
