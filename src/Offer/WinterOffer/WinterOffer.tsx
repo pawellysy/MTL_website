@@ -1,7 +1,7 @@
 import React from "react";
 
 const WinterOffer = () => {
-    return <div>WinterOffer</div>;
+    return <div> winter Offer </div>
 };
 
 export default WinterOffer;

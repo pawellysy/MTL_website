@@ -11,13 +11,13 @@ const NavigationBar = () => {
             <Link to="/about">
                 <ui.NavigationButton>O nas</ui.NavigationButton>
             </Link>
-            <Link to="offer">
+            <Link to="/offer">
                 <ui.NavigationButton>oferta</ui.NavigationButton>
             </Link>
-            <Link to="gallery">
+            <Link to="/gallery">
                 <ui.NavigationButton>galeria</ui.NavigationButton>
             </Link>
-            <Link to="contact">
+            <Link to="/contact">
                 <ui.NavigationButton>kontakt</ui.NavigationButton>
             </Link>
         </ui.NavigationBarWrapper>
